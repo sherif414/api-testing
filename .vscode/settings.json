@@ -1,0 +1,19 @@
+{
+  "cSpell.words": [
+    "Vitesse"
+  ],
+  "prettier.enable": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "files.associations": {
+    "*.css": "postcss"
+  },
+  "editor.formatOnSave": true,
+  "editor.bracketPairColorization.enabled": true,
+  "volar.codeLens.scriptSetupTools": true,
+  "volar.completion.preferredTagNameCase": "pascal",
+  "volar.icon.preview": false,
+  "volar.icon.splitEditors": false,
+  "volar.vueserver.useSecondServer": true
+}
