@@ -116,7 +116,7 @@
     <!-- section three -->
 
     <section
-      class="bg-[url(./assets/bg.svg)] text-center lg:text-left grid justify-items-center gap-8 lg:grid-cols-2 lg:pb-0 pb-8 text-black px-2rem lg:px-10rem">
+      class="bg-coffee text-center lg:text-left grid justify-items-center gap-8 lg:grid-cols-2 lg:pb-0 pb-8 text-black px-2rem lg:px-10rem">
       <img class="relative bottom-5rem border-4 border-white rounded-md shadow-lg"
         src="./assets/about_coffee.png"
         alt="coffee mog">
@@ -144,11 +144,16 @@
     </section>
   </main>
 </template>
-<script>
-import CardPopular from './components/CardPopular.vue'
+<script lang="ts" setup>
+import CardPopular from './components/CardPopular.vue';
+import TestmonialSec from './components/TestmonialSec.vue';
 </script>
 <style>
 html {
   background: #fff;
+}
+
+.bg-coffee {
+  background-image: url('./assets/bg.svg');
 }
 </style>

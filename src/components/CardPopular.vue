@@ -8,7 +8,7 @@
     </div>
     <img class="w-full"
       :src="img"
-      alt="popular product image">
+      :alt="heading">
     <h3 class="text-black text-lg capitalize text-center">
       {{ heading }}
     </h3>
