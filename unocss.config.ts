@@ -9,6 +9,13 @@ import {
 
 export default defineConfig({
   shortcuts: [],
+  theme:{
+    colors:{
+      primary: '#FF902A',
+      secondary:'#2F2105',
+      surface:'#F9D9AA'
+    }
+  },
   presets: [
     presetUno(),
     presetIcons({
@@ -17,9 +24,7 @@ export default defineConfig({
     }),
     presetWebFonts({
       fonts: {
-        sans: 'DM Sans',
-        serif: 'DM Serif Display',
-        mono: 'DM Mono',
+        poppins: 'Poppins',
       },
     }),
   ],
