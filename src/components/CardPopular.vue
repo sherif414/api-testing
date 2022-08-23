@@ -6,9 +6,8 @@
           rating
       }} <div class="i-carbon-star-filled text-primary"></div>
     </div>
-    <img class="w-full"
-      :src="img"
-      :alt="heading">
+    <slot>
+    </slot>
     <h3 class="text-black text-lg capitalize text-center">
       {{ heading }}
     </h3>
@@ -21,7 +20,6 @@
 <script setup lang="ts">
 defineProps<{
   heading: string,
-  img: string,
   rating: number
 }>()
 </script>

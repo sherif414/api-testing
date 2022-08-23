@@ -9,20 +9,17 @@
 
       <nav class=" hidden md:flex text-black justify-between items-center py-2rem">
         <a href="#">
-          <img src="./assets/logo.svg"
-            alt="logo">
+          <img src="/src/assets/logo.svg" alt="logo">
         </a>
         <ul class="flex gap-2rem">
-          <a href="#"
-            class="text-primary">About us</a>
+          <a href="#" class="text-primary">About us</a>
           <a href="#">Our Products</a>
           <a href="#">Delivery</a>
         </ul>
         <div class="relative flex gap-1rem items-center">
           <span class="i-akar-icons-search absolute left-10px top-25% text-surface" />
           <input class="pl-2.5rem pr-1rem text-sm py-2 rounded-1rem focus:outline-none shadow"
-            type="search"
-            placeholder="search">
+            type="search" placeholder="search">
           <div class="i-akar-icons-cart hover:cursor-pointer " />
         </div>
       </nav>
@@ -30,9 +27,7 @@
       <!-- body -->
 
       <div class="grid lg:grid-cols-2 justify-items-center gap-8 lg:grid-rows-1 lg:items-center">
-        <img class="lg:hidden"
-          src="./assets/logo.svg"
-          alt="logo">
+        <img class="lg:hidden" src="./assets/logo.svg" alt="logo">
         <div class="flex flex-col px-2rem lg:px-0">
           <h1 class="lg:text-5xl text-2xl lg:w-16ch font-semibold text-secondary lg:leading-[1.3]">
             enjoy your <span class="text-primary">coffee</span> before your activity
@@ -53,8 +48,7 @@
         </div>
         <img
           class="lg:scale-80 2xl:scale-120 scale-70 xl:scale-100 p-0 m-0 lg:relative lg:left-5rem"
-          src="./assets/coffeemog.svg"
-          alt="coffee mog">
+          src="/src/assets/coffeemog.svg" alt="coffee mog">
       </div>
     </section>
 
@@ -65,24 +59,24 @@
         Popluar <span class="underline-primary underline underline-3px">now</span>
       </h2>
       <div class="grid lg:grid-cols-3 grid-cols-1 gap-4">
-        <CardPopular img="./assets/coffeemog1.png"
-          heading="vanilla latte"
-          :rating="4.5" />
-        <CardPopular img="./assets/coffeemog2.png"
-          heading="espresso"
-          :rating="4.8" />
-        <CardPopular img="./assets/coffeemog3.png"
-          heading="hazelnut latte"
-          :rating="4.6" />
-        <CardPopular img="./assets/coffeemog4.png"
-          heading="hot milk"
-          :rating="4.7" />
-        <CardPopular img="./assets/coffeemog5.png"
-          heading="cappucino"
-          :rating="4.4" />
-        <CardPopular img="./assets/coffeemog6.png"
-          heading="coffee ice cream"
-          :rating="4.3" />
+        <CardPopular heading="vanilla latte" :rating="4.5">
+          <img class="w-full" src="/src/assets/coffeemog1.png" alt="heading">
+        </CardPopular>
+        <CardPopular heading="espresso" :rating="4.8">
+          <img class="w-full" src="/src/assets/coffeemog2.png" alt="heading">
+        </CardPopular>
+        <CardPopular heading="hazelnut latte" :rating="4.6">
+          <img class="w-full" src="/src/assets/coffeemog3.png" alt="heading">
+        </CardPopular>
+        <CardPopular heading="hot milk" :rating="4.7">
+          <img class="w-full" src="/src/assets/coffeemog4.png" alt="heading">
+        </CardPopular>
+        <CardPopular heading="cappucino" :rating="4.4">
+          <img class="w-full" src="/src/assets/coffeemog5.png" alt="heading">
+        </CardPopular>
+        <CardPopular heading="coffee ice cream" :rating="4.3">
+          <img class="w-full" src="/src/assets/coffeemog6.png" alt="heading">
+        </CardPopular>
 
       </div>
 
@@ -91,22 +85,16 @@
           class="underline-primary underline underline-3px">service</span>
       </h2>
       <div class="grid lg:grid-cols-3 justify-items-center font-bold text-lg gap-8 lg:gap-4">
-        <div><img class="mb-4"
-            src="./assets/service1.svg"
-            alt="svg devlivary serivce steps">
+        <div><img class="mb-4" src="/src/assets/service1.svg" alt="svg devlivary serivce steps">
           <h3>order your coffee</h3>
           <p class="font-normal text-sm text-gray text-center">over 20+ kinds of coffees</p>
         </div>
-        <div><img class="mb-4"
-            src="./assets/service2.svg"
-            alt="svg devlivary serivce steps">
+        <div><img class="mb-4" src="/src/assets/service2.svg" alt="svg devlivary serivce steps">
           <h3>we deliver it to you</h3>
           <p class="font-normal text-sm text-gray text-center">5 mins Delivery</p>
         </div>
         <div>
-          <img class="mb-4"
-            src="./assets/service3.svg"
-            alt="svg devlivary serivce steps">
+          <img class="mb-4" src="/src/assets/service3.svg" alt="svg devlivary serivce steps">
           <h3>enjoy your coffee</h3>
           <p class="font-normal text-sm text-gray text-center">hot and delicious</p>
         </div>
@@ -118,8 +106,7 @@
     <section
       class="bg-coffee text-center lg:text-left grid justify-items-center gap-8 lg:grid-cols-2 lg:pb-0 pb-8 text-black px-2rem lg:px-10rem">
       <img class="relative bottom-5rem border-4 border-white rounded-md shadow-lg"
-        src="./assets/about_coffee.png"
-        alt="coffee mog">
+        src="/src/assets/about_coffee.png" alt="coffee mog">
       <div class="flex flex-col justify-center items-center lg:items-start gap-8">
         <h2 class="text-3xl font-bold">
           About <span class="underline-primary underline underline-3px">us</span>
@@ -154,6 +141,6 @@ html {
 }
 
 .bg-coffee {
-  background-image: url('./assets/bg.svg');
+  background-image: url('/src/assets/bg.svg');
 }
 </style>
