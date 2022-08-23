@@ -8,7 +8,8 @@
     "typecheck": "vue-tsc --noEmit",
     "preview": "vite preview",
     "test": "vitest",
-    "up": "taze major -I"
+    "up": "taze major -I",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@iconify-json/akar-icons": "^1.1.8",
